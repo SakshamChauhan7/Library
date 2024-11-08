@@ -50,8 +50,7 @@ public class User{
 	public void displayUser() {
 		
 		//using print from myUtil
-		print("----------------------------");
-		print("      User Information");
+
 		print("Name           : " + this.name);
 		print("User Id        : " + this.userId);
 		print("Contact No.    : " + this.contactNum);

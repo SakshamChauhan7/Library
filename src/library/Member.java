@@ -29,7 +29,7 @@ public class Member extends User{
 	public void displayMemberInfo() {
 		super.displayUser();
 		print("Books Borrowed : " + this.borrowedBookCount);
-		print("----------------------------");
+		
 	}
 }
 
