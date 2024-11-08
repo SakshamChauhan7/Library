@@ -6,14 +6,14 @@ public class user{
 	//these are some basic attribute to user that will be 
 	//Utilized by other classes
 	
-	String name = null;
-	int userId;
-	int contactNum;
+	protected String name = null;
+	protected int userId;
+	protected int contactNum;
 	
-	public user(String uName,int uId, int Cnum){
-		name = uName;
-		userId = uId;
-		contactNum = Cnum;
+	public user(String name,int userId, int contactNum){
+		this.name = name;
+		this.userId = userId;
+		this.contactNum = contactNum;
 		
 	}
 	
@@ -22,28 +22,28 @@ public class user{
 	//All the get methods
 	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	public int getUserId() {
-		return userId;
+		return this.userId;
 	}
 	
 	public int getContactNum() {
-		return contactNum;
+		return this.contactNum;
 	}
 	
 	//All the set methods
-	public void setName(String N) {
-		name = N;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
-	public void setUserId(int uId) {
-		userId = uId;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 	
-	public void setContactNum(int cNum) {
-		contactNum = cNum;
+	public void setContactNum(int contactNum) {
+		this.contactNum = contactNum;
 	}
 	
 	//Display method
@@ -52,9 +52,9 @@ public class user{
 		//using print from myUtil
 		print("----------------------------");
 		print("      User Information");
-		print("Name        : " + name);
-		print("User Id     : " + userId);
-		print("Contact No. : " + contactNum);
+		print("Name        : " + this.name);
+		print("User Id     : " + this.userId);
+		print("Contact No. : " + this.contactNum);
 		print("----------------------------");
 		
 	}
