@@ -1,7 +1,7 @@
 package library;
 import static library.myUtil.*;
 
-public class user{
+public class User{
 	
 	//these are some basic attribute to user that will be 
 	//Utilized by other classes
@@ -10,7 +10,7 @@ public class user{
 	protected int userId;
 	protected int contactNum;
 	
-	public user(String name,int userId, int contactNum){
+	public User(String name,int userId, int contactNum){
 		this.name = name;
 		this.userId = userId;
 		this.contactNum = contactNum;
@@ -52,10 +52,10 @@ public class user{
 		//using print from myUtil
 		print("----------------------------");
 		print("      User Information");
-		print("Name        : " + this.name);
-		print("User Id     : " + this.userId);
-		print("Contact No. : " + this.contactNum);
-		print("----------------------------");
+		print("Name           : " + this.name);
+		print("User Id        : " + this.userId);
+		print("Contact No.    : " + this.contactNum);
+		
 		
 	}
 }

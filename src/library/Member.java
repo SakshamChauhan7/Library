@@ -1,10 +1,12 @@
 package library;
 
-public class member extends user{
+import static library.myUtil.print;
+
+public class Member extends User{
 	
 	private int borrowedBookCount;
 	
-	public member(String name,int userId, int contactNum, int borrowedBookCount) {
+	public Member(String name,int userId, int contactNum, int borrowedBookCount) {
 		super(name,userId,contactNum);
 		this.borrowedBookCount = borrowedBookCount;
 	}
@@ -22,6 +24,12 @@ public class member extends user{
 		this.borrowedBookCount = borrowedBookCount;
 	}
 	
+	//Display function
 	
+	public void displayMemberInfo() {
+		super.displayUser();
+		print("Books Borrowed : " + this.borrowedBookCount);
+		print("----------------------------");
+	}
 }
 
