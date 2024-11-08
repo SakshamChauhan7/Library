@@ -1,5 +1,5 @@
 package library;
-
+import static library.myUtil.*;
 
 public class user{
 	
@@ -19,7 +19,7 @@ public class user{
 	
 	
 	
-	//All the get functions
+	//All the get methods
 	
 	public String getName() {
 		return name;
@@ -31,5 +31,31 @@ public class user{
 	
 	public int getContactNum() {
 		return contactNum;
+	}
+	
+	//All the set methods
+	public void setName(String N) {
+		name = N;
+	}
+	
+	public void setUserId(int uId) {
+		userId = uId;
+	}
+	
+	public void setContactNum(int cNum) {
+		contactNum = cNum;
+	}
+	
+	//Display method
+	public void displayUser() {
+		
+		//using print from myUtil
+		print("----------------------------");
+		print("      User Information");
+		print("Name        : " + name);
+		print("User Id     : " + userId);
+		print("Contact No. : " + contactNum);
+		print("----------------------------");
+		
 	}
 }
