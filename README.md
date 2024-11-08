@@ -5,7 +5,7 @@
 With the GUI Development using swing that is something I have to explore.</li>
 </ul><h2>Technologies Used</h2>
 <hr><ul>
-<li>HTML</li>
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
 </ul><h2>Project Status</h2>
 <hr><p>In progress</p><h2>Contact</h2>
 <hr><p><span style="margin-right: 30px;"></span><a href="www.linkedin.com/in/schauhan400"><img style="width: 10%;" target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a><span style="margin-right: 30px;"></span><a href="https://github.com/SakshamChauhan7"><img style="width: 10%;" target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a></p>
